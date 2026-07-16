@@ -12,7 +12,6 @@ WITH customer_spending AS (
         c.first_name,
         c.last_name
 )
-
 SELECT
     first_name || ' ' || last_name AS customer_name,
     total_spent
