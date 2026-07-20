@@ -1,21 +1,32 @@
-# SQL Course Exercises
+# SQL Course Automation
 
-This repository contains my solutions for the SQL course exercises completed using the PostgreSQL **dvdrental** sample database.
+## Prerequisites
 
-## Tools Used
+- PostgreSQL
+- Python 3.x
 
-- PostgreSQL 18
-- DBeaver Community Edition
-- Git & GitHub
-- Python (Exercise 15 Automation)
+## Install
 
-## Repository Structure
+```bash
+pip install -r automation/requirements.txt
+```
 
-```text
-SQL-Course/
-¦
-+-- Exercises/
-+-- automation/
-+-- output/
-+-- README.md
-+-- .gitignore
+## Run
+
+```bash
+cd automation
+python main.py
+```
+
+## Output
+
+The generated workbook is saved in:
+
+automation/output/sql_exercise_outputs.xlsx
+
+Each worksheet corresponds to one SQL exercise:
+
+- Q1
+- Q2
+- ...
+- Q14
